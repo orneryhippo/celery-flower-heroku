@@ -6,7 +6,7 @@ This project template/guide helps you to bootstrap the process and creates a sim
 
 Clone the repo:
 
-    git clone https://github.com/jorilallo/celery-flower-heroku.git
+    git clone https://github.com/orneryhippo/celery-flower-heroku.git
 
 Create an Heroku app:
 
