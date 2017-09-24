@@ -26,4 +26,4 @@ Push to heroku:
 
     git push heroku master
 
-Now visit the app. It will ask for a username and a password which you defined above.
+Now visit the app. It will ask for a username and a password which you defined with the FLOWER_BASIC_AUTH environment variable above.
