@@ -17,6 +17,10 @@ Configure the app by providing a password for logging into Flower:
 
     heroku config:set FLOWER_BASIC_AUTH="username:password"
 
+Configure THIS app by providing your broker url (RabbitMQ, Redis, what have you) from the app which is running Redis & Celery:
+
+    heroku config:set BROKER_URL=redis://...
+
 Push to heroku:
 
     git push heroku master
